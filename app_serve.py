@@ -16,7 +16,7 @@ exSql.db.init_app(app)
 wtforms_json.init()
 base_url = "/api/v1"
 
-api.add_resource(usuarios,"{}/Usuarios".format(base_url))
+api.add_resource(usuarios,"{}/Usuariosxd".format(base_url))
 api.add_resource(autentificacion,"{}/auth".format(base_url))
 api.add_resource(sistema,"{}/Sistema".format(base_url))
 api.add_resource(actualizar_password,"{}/ActualizarContraseña".format(base_url))
